@@ -20,7 +20,7 @@ This dataset contains scrapped data from airbnb. It contains detailed listings d
 In this project I aim to create the best model for predicting price that for a house/apartment listed at Airbnb in London. It could be used as a way to inform a host that the price he wishes for renting his place is too low, optimal or too high compared to other listings. It could help people to adjust their prices to others without much boring work. 
 
 ## Results
-[r2_training_score](./readme/r2_training_results.png)
+![r2_training_score](/readme/r2_training_results.png)
 
 RandomForestRegressor has the best results when calculating r2 score for training set. Unfortunately comparing this value to r2 score in test set it is clear that this value is too high and I should have used OOB score for training score of RandomForestRegressor.
 
@@ -29,7 +29,8 @@ First DNN model also has a really high r2 score for training set, but it is a cl
 XGBRegressor has r2 score in training set of 0.8 and test r2 score is similiar making it the best model.
 
 
-[r2_test_score](./readme/r2_test_results.png)
+![r2_test_score](/readme/r2_test_results.png)
+
 As stated before XGBRegressor is the best model with r2 test score of 0.75.
 
 RandomForestRegressor performed slightly worse but it still has a similiar r2 score in test set.
